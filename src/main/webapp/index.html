@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h3>
+    seema
+  </h3>
+  
+    <title></title>
+</head>
+<body>
+  
+  <form>
+    enter no 1:<input type=number id="num1">
+    enter no 2:<input type=number id="num2">
+    <input type="button" value="ADD" OnClick="add();">
+   
+  </form>
+  <script>
+  
+  
+  function add()
+    {
+      var n1=document.getElementById("num1").value;
+      var n2=document.getElementById("num2").value;
+      var sum=+n1 + +n2;
+        alert("The sum is:"+sum);
+  document.getElementById("result").innertext=sum;
+    }
+  
+
+  
+  </script>
+  
+   
+  
+</body>
+</html>
